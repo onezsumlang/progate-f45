@@ -5,7 +5,7 @@
 F45 - Team Member:
 1. Michael Onesimus Sumlang
 2. Maryanti Rahayuningsih
-3. Feiyska Nasution
+3. Marsinah Dewi Feiyska Nasution
 4. Ridho Priyo
 5. Muhammad Asrul
 
