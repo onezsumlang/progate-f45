@@ -280,3 +280,69 @@ footer {
 	color: #fff;
 	z-index: 99;
 }
+
+.shadow3{
+  box-shadow:5px 5px 5px 5px navy;
+}
+
+.about{
+  display:flex;
+  text-align:center;
+  padding-bottom:40px;
+  background:#f2f2f2;
+}
+
+.about-box{
+  float: left;
+  width: 100%;
+  padding:20px;
+}
+
+.about-box img{
+  width:100px;
+  border-radius:100px;
+}
+
+.about-card{
+  padding:15px 5px 5px 5px;
+  min-height:250px;
+}
+
+.sub-banner {
+  background-color: #111111;
+  color: #fff;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  background-image: url("assets/images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 0;
+  display: -ms-flexbox;
+  height: 25rem !important;
+  min-height: 25rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.sub-banner .container {
+  background-color: rgba(0,0,0,0.5);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: #1E90FF;}
+  25%  {background-color: red;}
+  50%  {background-color: #00FFFF;}
+  100% {background-color: rgba(0,0,0,0.5);}
+}
