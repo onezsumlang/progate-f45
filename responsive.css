@@ -1,9 +1,46 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  
+
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  
+	.header-right{
+		display:none;
+	}
+	
+	.menu-icon{
+		display:block;
+	}
+	
+	.banner h1{
+		font-size: 35px;
+		letter-spacing: 2px;
+	}
+	
+	.banner p {
+		font-size:18px;
+	}
+	
+	.team-box{
+		width: 100%;
+	}
+	
+	.lesson-box{
+		width: 100%;
+	}
+	
+	.ads-left h1{
+		font-size:15px;
+		font-weight:bold;
+	}
+	
+	.ads-right{
+		padding-top:0px;
+	}
+	
+	.ads-right img{
+		max-width:120px;
+	}
+	
 }
